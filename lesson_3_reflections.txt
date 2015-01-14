@@ -8,3 +8,13 @@ up-to-date with your remote repository?
 
 An automatic pull might overwrite a previous version of a file that you still need, or you might
 want to wait until several changes accumulate.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of 
+another?
+
+Forks are clones of other repositories inside Github, done directly inside the Github website.
+Clone are copies of a repository in Github done to your computer (local copy).
+Branches refer to different versions of the files in your repository that will have different
+content since the commit where the branch was made. These branches can later be merged to the
+master branch or another branch, in order to combine the content of both versions.

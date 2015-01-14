@@ -12,3 +12,40 @@ which files to add to the repository, and prepare which files to commit instead 
 the files in the working directory. It is also different from the repository, since it is a
 temporary directory where the files to commit are stored, before making changes to the repository,
 where the files that are commited are stored and tracked.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the differences between the files in the staging area, and the files in the working
+directory or the repository, to see which changes in code are going to be commited. That way, you can
+be sure you are only commiting the desired changes.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would
+branches help?
+
+It is helpful when you want to add features that are not well tested or create a version of your code
+that is experimental, and you want to keep a working version of your code.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They mainly help you analyze the reachability of each commit, and where branches split from the 
+master branch. This helps you see what changes are included in each branch.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we
+do?
+
+It combines the changes made to a file in two different branches, by adding the code each branch
+implemented to the file, and removing the code that was present in the original file, but was deleted
+in one of the branches. The diagram is represented in that way because it lets us see at what stage
+the branches were merged, and it lets us see which commits were included in the merge.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+With automatic merging, you save time and can combine code from two different versions of a file
+easily, but you can't chose what will be merged. With manual merge, although you have to dedicate
+more time to revising the code, you can chose which sections of code that are in conflict will make
+it to the final version of the file.

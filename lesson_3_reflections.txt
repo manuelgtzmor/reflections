@@ -18,3 +18,10 @@ Clone are copies of a repository in Github done to your computer (local copy).
 Branches refer to different versions of the files in your repository that will have different
 content since the commit where the branch was made. These branches can later be merged to the
 master branch or another branch, in order to combine the content of both versions.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It gives you the chance to compare the changes in the remote copy and your local copy, and decide
+which changes to keep and how to merge them, in case commits were made both locally and remotely
+before syncing the two versions.
